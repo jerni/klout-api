@@ -1,0 +1,24 @@
+{
+    "name": "jerni/klout-api",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Bundle Klout API Extension",
+    "keywords": ["symfony2", "Klout", "api", "Klout api"],
+    "homepage": "https://github.com/jerni/klout-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jse",
+            "email": "ernijosephstalin@gmail.com",
+            "homepage": "http://jsmierni.com/"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": { "Klout\\ApiBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v1.0.x-dev"
+        }
+    }
+}
